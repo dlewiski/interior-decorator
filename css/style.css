@@ -1,12 +1,26 @@
 .columns{
-  width: 300px;
+  width: 350px;
   float: left;
   margin: 25px;
+  border: 5px solid grey;
 }
 img{
   display: block;
   max-width: 300px;
+  margin: auto;
 }
 h3{
   text-align: center;
+}
+.before{
+  background-color: green;
+  padding: 4px;
+}
+.during{
+  background-color: red;
+  padding: 4px;
+}
+.after{
+  background-color: brown;
+  padding: 4px;
 }
